@@ -1,0 +1,23 @@
+''' Python Loops Tasks:
+● write a program that take 2 numbers from the user and print
+the numbers between them
+● write a program that takes a number from the user and
+prints the number from 0 to 100 that can be divided by this
+number'''
+
+n1 = int(input("plz enter the firste number  : "))
+n2 = int(input("plz enter the second number : "))
+
+for x in range (n1,n2+1) :
+    print( x )
+    x+=1
+    
+print("*******************************************")
+
+x1 = int(input(" plz enter a number  : "))
+
+for x in range (0,101) :
+    if x%x1 == 0 :
+        print(x)
+    x+=1
+    
